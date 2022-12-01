@@ -64,7 +64,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_GRAVE,              TD(DANCE_KC_1), TD(DANCE_KC_2), TD(DANCE_KC_3),TD(DANCE_KC_4), TD(DANCE_KC_5),              TD(DANCE_KC_6), TD(DANCE_KC_7), TD(DANCE_KC_8), TD(DANCE_KC_9), TD(DANCE_KC_0), KC_BSPACE,
   KC_TAB,                KC_Q,   KC_W,    KC_E,    KC_R,    KC_T,                                                    KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,    KC_BSLS,
   LT(_LOWER, KC_ESCAPE), KC_A,   KC_S,    KC_D,    KC_F,    KC_G,                                                    KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT,
-  KC_LSFT,               KC_Z,   KC_X,    KC_C,    KC_V,    KC_B,     KC_LBRC,                             KC_RBRC,  KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, MO(_RAISE),
+  KC_LSFT,               KC_Z,   LCTL_T(KC_X),  LALT_T(KC_C), LGUI_T(KC_V), KC_B, KC_LBRC,                             KC_RBRC,  KC_N,    RGUI_T(KC_M),  LALT_T(KC_COMM), RCTL_T(KC_DOT),  KC_SLSH, MO(_RAISE),
                                          KC_LCTRL, KC_LALT, KC_LGUI, KC_LCTRL,                            KC_ENT, KC_SPC,  TD(DANCE_KC_MINUS), TD(DANCE_KC_EQUAL)
 ),
 
