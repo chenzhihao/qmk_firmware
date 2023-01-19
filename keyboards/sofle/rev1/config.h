@@ -1,13 +1,20 @@
 #pragma once
 
+/* USB Device descriptor parameter */
+#define VENDOR_ID       0x1984
+#define PRODUCT_ID      0x0508
+#define DEVICE_VER      0x0001
+#define MANUFACTURER    popdream
+#define PRODUCT         Sofle v1 RGB
+
 /* key matrix size */
 // Rows are doubled-up
 #define MATRIX_ROWS 10
-#define MATRIX_COLS 6
+#define MATRIX_COLS 7
 
 // wiring of each half
 #define MATRIX_ROW_PINS { C6, D7, E6, B4, B5 }
-#define MATRIX_COL_PINS { F6, F7, B1, B3, B2, B6 }
+#define MATRIX_COL_PINS { B6, B2, B3, B1, F7, F6 , D4}
 #define DIODE_DIRECTION COL2ROW
 
 #define TAPPING_TERM 100
@@ -26,3 +33,7 @@
 #define USE_SERIAL
 #define SERIAL_USE_MULTI_TRANSACTION
 #define SOFT_SERIAL_PIN D2
+
+#define NO_ACTION_MACRO
+#define NO_ACTION_FUNCTION
+
