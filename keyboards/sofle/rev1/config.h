@@ -4,8 +4,8 @@
 #define VENDOR_ID       0x1984
 #define PRODUCT_ID      0x0508
 #define DEVICE_VER      0x0001
-#define MANUFACTURER    popdream
-#define PRODUCT         Sofle v1 RGB
+#define MANUFACTURER    "you"
+#define PRODUCT         "Sofle v1 RGB"
 
 /* key matrix size */
 // Rows are doubled-up
